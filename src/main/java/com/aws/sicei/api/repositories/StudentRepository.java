@@ -1,0 +1,9 @@
+package com.aws.sicei.api.repositories;
+
+import com.aws.sicei.api.models.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Long> {
+}
